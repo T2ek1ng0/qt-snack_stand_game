@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/new/picture">
+        <file>picture/jiange.jpg</file>
+        <file>picture/lao8.jpg</file>
+        <file>picture/lao82.jpg</file>
+        <file>picture/lihua.jpg</file>
+        <file>picture/lihua2.jpg</file>
+        <file>picture/lipu.jpg</file>
+        <file>picture/lipu2.jpg</file>
+        <file>picture/u.jpg</file>
+        <file>picture/jiange2.jpg</file>
+        <file>picture/ladygaba.jpg</file>
+        <file>picture/ladygaba2.jpg</file>
+    </qresource>
+    <qresource prefix="/new/totaltxt">
+        <file>0.txt</file>
+        <file>jiange.txt</file>
+        <file>ladygaba.txt</file>
+        <file>lao8.txt</file>
+        <file>lihua.txt</file>
+        <file>lipu.txt</file>
+    </qresource>
+</RCC>

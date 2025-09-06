@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>768</width>
+    <height>636</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>768</width>
+    <height>636</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>768</width>
+    <height>636</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>微软雅黑 Light</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="mainlabel">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>32</y>
+      <width>731</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="statelabel">
+    <property name="geometry">
+     <rect>
+      <x>559</x>
+      <y>0</y>
+      <width>201</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dicelabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>561</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="enter1">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>520</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>进入游戏</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextpage1">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>520</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下一页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextpage2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>520</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下一页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextpage3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>520</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下一页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextpage4">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>520</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下一页</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="easy">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>510</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>简单</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="normal">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>510</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>一般</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="hard">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>510</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>困难</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start">
+    <property name="geometry">
+     <rect>
+      <x>289</x>
+      <y>510</y>
+      <width>141</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始游戏</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startday">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>510</y>
+      <width>201</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>start</string>
+    </property>
+   </widget>
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>31</y>
+      <width>751</width>
+      <height>470</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>749</width>
+       <height>468</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="sayword">
+    <property name="geometry">
+     <rect>
+      <x>195</x>
+      <y>340</y>
+      <width>541</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="picture">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>340</y>
+      <width>151</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="infobutton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>520</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>游戏介绍</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="diceyes">
+    <property name="geometry">
+     <rect>
+      <x>229</x>
+      <y>510</y>
+      <width>91</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>掷</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="diceno">
+    <property name="geometry">
+     <rect>
+      <x>399</x>
+      <y>510</y>
+      <width>101</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>不掷</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nextpage0">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>520</y>
+      <width>120</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>下一页</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>768</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>关于</string>
+    </property>
+    <addaction name="infoaction"/>
+   </widget>
+   <widget class="QMenu" name="search">
+    <property name="title">
+     <string>查询</string>
+    </property>
+    <addaction name="lookguestaction"/>
+    <addaction name="lookfoodaction"/>
+    <addaction name="lookreviewaction"/>
+    <addaction name="lookachieveaction"/>
+    <addaction name="lookpoliceaction"/>
+   </widget>
+   <widget class="QMenu" name="story">
+    <property name="title">
+     <string>传记</string>
+    </property>
+    <addaction name="actionjiange"/>
+    <addaction name="actionlipu"/>
+    <addaction name="actionlihua"/>
+    <addaction name="actionlao8"/>
+    <addaction name="actionladygaba"/>
+   </widget>
+   <widget class="QMenu" name="operate">
+    <property name="title">
+     <string>操作</string>
+    </property>
+    <addaction name="systempause"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="search"/>
+   <addaction name="story"/>
+   <addaction name="operate"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="infoact">
+   <property name="text">
+    <string>介绍</string>
+   </property>
+  </action>
+  <action name="infoaction">
+   <property name="text">
+    <string>信息</string>
+   </property>
+  </action>
+  <action name="lookguestaction">
+   <property name="text">
+    <string>顾客</string>
+   </property>
+  </action>
+  <action name="lookfoodaction">
+   <property name="text">
+    <string>菜品</string>
+   </property>
+  </action>
+  <action name="looksuddenaction">
+   <property name="text">
+    <string>突发事件</string>
+   </property>
+  </action>
+  <action name="lookachieveaction">
+   <property name="text">
+    <string>成就</string>
+   </property>
+  </action>
+  <action name="lookreviewaction">
+   <property name="text">
+    <string>风评</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>控评</string>
+   </property>
+  </action>
+  <action name="chargereviewaction">
+   <property name="text">
+    <string>控评</string>
+   </property>
+  </action>
+  <action name="chargefoodaction">
+   <property name="text">
+    <string>菜品</string>
+   </property>
+  </action>
+  <action name="lookgueststoryaction">
+   <property name="text">
+    <string>人物传记</string>
+   </property>
+  </action>
+  <action name="actionjiange">
+   <property name="text">
+    <string>jiange</string>
+   </property>
+  </action>
+  <action name="actionlipu">
+   <property name="text">
+    <string>lipu</string>
+   </property>
+  </action>
+  <action name="actionlihua">
+   <property name="text">
+    <string>lihua</string>
+   </property>
+  </action>
+  <action name="actionlao8">
+   <property name="text">
+    <string>lao8</string>
+   </property>
+  </action>
+  <action name="actionladygaba">
+   <property name="text">
+    <string>ladygaba</string>
+   </property>
+  </action>
+  <action name="pauseaction">
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </action>
+  <action name="systempause">
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </action>
+  <action name="lookpoliceaction">
+   <property name="text">
+    <string>城管</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
