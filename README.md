@@ -72,7 +72,7 @@ C++搭配Qt框架，面向对象+事件驱动
 
 ```
 .
-├── shaokaotan-zhuanshengversion.pro # Qt 工程文件（.pro）
+├── lgxiaochitan.pro # Qt 工程文件（.pro）
 ├── main.cpp # 程序入口
 ├── mainwindow.{cpp,h,ui} # 主窗口代码和 UI
 ├── dialog.{cpp,h,ui} # 搜索对话框（Searchdialog）模块
